@@ -1,5 +1,5 @@
 # time-tracker
-This is script is used to figure out what time you need to leave on your last day of work to hit X hours
+This script is used to figure out what time you need to leave on your last day of work to hit X hours
 
 How to use:
 1) Input the hours and minutes you have worked for everday of the week so far. Example:
@@ -37,4 +37,4 @@ totalweekh = 40
 Remaining time for the week 8 28
 You should leave at 22 38
 ```
-Looking at this tells me that I need to work * hours and 28 minutes to hit my goal of 40 hours this week. To hit 40 I should leave at 22:38
+This output tells me that I need to work  8 hours and 28 minutes to hit my goal of 40 hours this week. To hit 40 I should leave at 22:38
