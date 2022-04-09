@@ -19,9 +19,6 @@ fridayh = 0
 fridaym = 0
 saturdayh = 0 
 saturdaym = 0
-starttimeh = 13
-starttimem = 40
-totalweekh = 40
 ```
 2) Input the time you started your shift for the final day of the week. NOTE: This must be in 24hr time Example:
 ```
