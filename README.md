@@ -35,3 +35,16 @@ Remaining time for the week 8 28
 You should leave at 22 38
 ```
 This output tells me that I need to work  8 hours and 28 minutes to hit my goal of 40 hours this week. To hit 40 I should leave at 22:38
+
+NOTE: This script assume on the last day you will take a 30 minute unpaid lunch if you work 6 hours or more. If your lunch is unpaid but not 30 minutes then change this varaible to the length of your lunch in minutes
+```
+else:
+    lunchm = 30
+```
+If your lunch is paid or you do not take a lunch then comment out the following lines
+```
+if remtimem <= 360:
+    lunchm = 0
+else:
+    lunchm = 30
+```
